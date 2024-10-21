@@ -1,0 +1,4 @@
+Ivan Alfanjarin,21,220000.00
+Ivan Axxx,60,100000.00
+Fran Css,35,30000000.00
+Pedro Cza,45,750000.32
