@@ -27,11 +27,11 @@ public class Ej1 {
                 try {
                     boolean hasError = Files.lines(file).anyMatch(line -> line.contains("error"));
                     if(hasError){
-                        System.out.println("Tiene error" + file.getFileName());
+                        System.out.println("Tiene error " + file.getFileName());
                         Files.move(file, errorDir.resolve(file.getFileName()), StandardCopyOption.REPLACE_EXISTING);
                         errorList.add(String.valueOf(file.getFileName()));
                     }else {
-                        System.out.println("No tiene error" + file.getFileName());
+                        System.out.println("No tiene error " + file.getFileName());
                         Files.move(file, processedDir.resolve(file.getFileName()), StandardCopyOption.REPLACE_EXISTING);
                         processedList.add(String.valueOf(file.getFileName()));
                     }
