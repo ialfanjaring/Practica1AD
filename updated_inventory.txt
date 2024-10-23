@@ -1,0 +1,1 @@
+Product{id=4, nombre='Azucar', precio=1.15, cantidad=17, diasParaCaducar=5}
